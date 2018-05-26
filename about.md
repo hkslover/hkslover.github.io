@@ -5,8 +5,19 @@ permalink: /about/
 published: true
 ---
 ---
-笔记
+Note
 
-生活
+Life
 
-回忆
+Memories
+
+---
+Remember My name is Snow.
+
+Don't forget your dream.
+
+Don't give up.
+
+You're best.
+
+---

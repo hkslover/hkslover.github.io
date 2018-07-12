@@ -16,7 +16,7 @@
 title: Snow
 email: hk_snow@yeah.net
 description: > # this means to ignore newlines until "baseurl:"
-  A Blog.
+  Blog.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://hkslover.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 

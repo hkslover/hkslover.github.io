@@ -4,20 +4,10 @@ title: About
 permalink: /about/
 published: true
 ---
----
-Note
 
-Life
+**Note**
 
-Memories
+**Life**
 
----
-Remember My name is Snow.
+**Memories**
 
-Don't forget your dream.
-
-Don't give up.
-
-You're best.
-
----

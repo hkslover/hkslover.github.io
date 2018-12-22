@@ -32,7 +32,8 @@ google-analytics:
 
 # Disqus
 disqus:
-  id:               "kiko-plus"
+  id:               "hkslover"
+#kiko-plus
 
 # URL
 url:                "https://hkslover.github.io/" # the base hostname & protocol for your site

@@ -33,6 +33,14 @@ google-analytics:
 # Disqus
 disqus:
   id:               "hkslover"
+# gitalk
+gitalk:
+   enable: true
+   owner: hkslover
+   repo: hkslover.github.io
+   clientID: ad24472ff51c6b8ad20e
+   clientSecret: 9c590cddf8670462739fa4821f5701116aa5dc95
+   admin: hkslover
 #kiko-plus
 # URL
 url:                "https://hkslover.github.io/" # the base hostname & protocol for your site

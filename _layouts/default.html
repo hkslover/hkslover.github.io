@@ -4,11 +4,7 @@
 <body>
   <div class="content-container">
     {{ content }}
-
-    {% include footer.html %}
-  </div>
-  
-   <!--//添加评论系统-->
+     <!--//添加评论系统-->
 
  <link rel="stylesheet" href="../../../../css/gitalk.css">
 
@@ -27,6 +23,7 @@ var gitalk = new Gitalk({
     id: '{{ page.date }}',
 
     clientID: '{{ site.gitalk.clientID }}',
+
     clientSecret: '{{ site.gitalk.clientSecret }}',
 
     repo: '{{ site.gitalk.repo }}',
@@ -42,5 +39,9 @@ var gitalk = new Gitalk({
 gitalk.render('gitalk-container')
 
 </script>
+    {% include footer.html %}
+  </div>
+  
+
 </body>
 </html>

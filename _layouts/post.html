@@ -21,8 +21,9 @@ layout: default
       </li>
       <!-- 在正文开头添加网易云音乐插件 -->
   {% if page.music-id %}
-    {% include cloud-music.html %}
+    {% include music.html %}
   {% endif %} 
+	    
       {% unless forloop.last %}{% endunless %}
       {% endfor %}
     </ul>

@@ -26,7 +26,11 @@ layout: default
 
   {{ content }}
 
-  
+  <!-- 在正文开头添加网易云音乐插件 -->
+  {% if page.music-id %}
+    {% include music.html %}
+  {% endif %} 
+  {{ content }}
 
   
  <!--//添加评论系统-->

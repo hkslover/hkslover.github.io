@@ -32,6 +32,11 @@ layout: default
   {{ content }}
 
 
+<!-- 视频播放插件 -->
+ {% if page.video %}
+     {% include video.html %}
+  {% endif %}  
+
   
  <!--//添加评论系统-->
  <link rel="stylesheet" href="../../../../css/gitalk.css">

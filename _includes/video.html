@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Snow Player</title>
+        <link rel="stylesheet" type="text/css" href="files.cnblogs.com/files/slover/video.css">
+        <script src="//files.cnblogs.com/files/slover/video.min.js"></script>
+        <script src="//files.cnblogs.com/files/slover/videojs-contrib-hls.js"></script>
+    </head>
+    <body>
+        <section id="videoPlayer">
+            <video id="example-video" width='300' height='200' class="video-js vjs-default-skin vjs-big-play-centered" poster="">
+                <source src="{{ page.video }}" type="application/x-mpegURL" id="target">
+            </video>
+        </section>
+        <script type="text/javascript">
+            var player = videojs('example-video', { "poster": "", "controls": "true" }, function() {
+                this.on('play', function() {
+                    console.log('正在播放');
+                });
+                //暂停--播放完毕后也会暂停
+                this.on('pause', function() {
+                    console.log("暂停中")
+                });
+                // 结束
+                this.on('ended', function() {
+                    console.log('结束');
+                })
+
+            });
+        </script>
+    </body>
+</html>

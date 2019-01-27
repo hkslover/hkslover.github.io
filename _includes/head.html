@@ -2,6 +2,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.name }}{% endif %}</title>
+  
+  {% include tianqi.html %}
 
   <!-- CSS -->
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css" type="text/css">
@@ -15,6 +17,6 @@
   {% seo %}
 
 
-  {% include google-analytics.html %}
+  
 
 </head>

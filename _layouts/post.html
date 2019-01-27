@@ -4,6 +4,7 @@ layout: default
 <header>
   <div class="header-small">
     <a href="{{site.url}}{{site.baseurl}}">{{ site.name }}</a>
+    {% include tianqi.html %}
   </div>
 </header>
 <div class="post">
@@ -19,7 +20,7 @@ layout: default
           <span>{{ tag }}</span>
         </a>
       </li>
-  
+  {% include tianqi.html %}
 	    
       {% unless forloop.last %}{% endunless %}
       {% endfor %}

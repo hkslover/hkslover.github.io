@@ -71,9 +71,6 @@ nav:
     url:            "/tags"
   - name:           "Github"
     url:            "https://github.com/hkslover"
-  - name:           "Game_Project"
-    url:            "https://github.com/hkslover/QQ_newyear_game"
-
 # Sass
 sass:
   sass_dir:         _sass

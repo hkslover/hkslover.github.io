@@ -98,3 +98,4 @@ gems:
   - jekyll-admin
 
 exclude:            [vendor]
+highlight: true

@@ -15,7 +15,7 @@ var qrcode = new QRCode(document.getElementById("qrcode"), {
 });
 	
 
-qrcode.makeCode("http://hkslover.github.io/{{ page.links }}/{{ page.title }}");
+qrcode.makeCode(window.location.href);
 
 </script>
 </body>

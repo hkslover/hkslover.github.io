@@ -43,8 +43,11 @@ layout: default
 
 {{ content }}
 
+{% if page.links %}
+     {% include QR.html %}
+  {% endif %}
 
-{% include QR.html %}
+
 
   
  <!--//添加评论系统-->

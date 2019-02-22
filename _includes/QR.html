@@ -15,7 +15,7 @@ var qrcode = new QRCode(document.getElementById("qrcode"), {
 });
 	
 
-qrcode.makeCode("{{ post.url | prepend: site.baseurl }}");
+qrcode.makeCode("{{ post.url }}");
 
 </script>
 </body>

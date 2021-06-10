@@ -35,12 +35,12 @@ function initGalleryByIndex(index) {
 
         var h2 = document.createElement("h2");
         h2.setAttribute("class", "tm-figure-title");
-        var tm_figure_title = gallerys[i].tm_figure_title == "" ? "###" : gallerys[i].tm_figure_title;
+        var tm_figure_title = gallerys[i].tm_figure_title == "" ? "" : gallerys[i].tm_figure_title;
         h2.innerHTML = "<span><strong>" + tm_figure_title + "</strong></span>";
 
         var p = document.createElement("p");
         p.setAttribute("class", "tm-figure-description");
-        p.innerText = gallerys[i].tm_figure_description == "" ? "###" : gallerys[i].tm_figure_description;
+        p.innerText = gallerys[i].tm_figure_description == "" ? "" : gallerys[i].tm_figure_description;
 
         var a = document.createElement("a");
         a.setAttribute("href", gallerys[i].href);

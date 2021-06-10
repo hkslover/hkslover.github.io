@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>图片墙</title>
+
+    <!-- load stylesheets -->
+    <link rel="stylesheet" href="css/google.font.css">
+    <!-- Google web font "Open Sans" -->
+    <link rel="stylesheet" href="Font-Awesome-4.7/css/font-awesome.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Bootstrap style -->
+    <link rel="stylesheet" href="css/hero-slider-style.css">
+    <!-- Hero slider style (https://codyhouse.co/gem/hero-slider/) -->
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <!-- Magnific popup style (http://dimsemenov.com/plugins/magnific-popup/) -->
+    <link rel="stylesheet" href="css/templatemo-style.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- These two JS are loaded at the top for gray scale including the loader. -->
+
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/gallery_pic.js?version=201708182100"></script>
+    <script src="js/gallery.js?version=201708182100"></script>
+    <!-- jQuery (https://jquery.com/download/) -->
+
+    <script>
+
+        var tm_gray_site = false;
+
+        if (tm_gray_site) {
+            $('html').addClass('gray');
+        }
+        else {
+            $('html').removeClass('gray');
+        }
+    </script>
+</head>
+
+<body>
+
+<!-- Content -->
+<div class="cd-hero">
+
+    <!-- Navigation -->
+    <div class="cd-slider-nav">
+        <nav class="navbar">
+            <div class="tm-navbar-bg">
+
+                <a class="navbar-brand text-uppercase" href="#"><i class="fa fa-picture-o tm-brand-icon"></i>CHENYIFAER</a>
+
+                <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse"
+                        data-target="#tmNavbar">
+                    &#9776;
+                </button>
+                <div class="collapse navbar-toggleable-md text-xs-center text-uppercase tm-navbar" id="tmNavbar">
+                    <ul class="nav navbar-nav">
+                        <li class="nav-item active selected">
+                            <a class="nav-link" href="#0" data-no="1">活动<span
+                                    class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#0" data-no="2">相册二</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#0" data-no="3">相册三</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#0" data-no="4">说明</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#0" data-no="6">测试</a>
+                        </li>
+                        
+                        <!--<li class="nav-item">-->
+                            <!--<a class="nav-link" href="#0" data-no="5">关于</a>-->
+                        <!--</li>-->
+                    </ul>
+                </div>
+            </div>
+
+        </nav>
+    </div>
+
+    <ul class="cd-hero-slider">
+
+        <!-- Page 1 相册一 -->
+        <li class="selected">
+            <div class="cd-full-width">
+                <div class="container-fluid js-tm-page-content" data-page-no="1" data-page-type="gallery">
+                    <div class="tm-img-gallery-container">
+                        <div id="gallery-one" class="tm-img-gallery gallery-one">
+                            <!-- Gallery One pop up connected with JS code below -->
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </li>
+
+        <!-- Page 2 相册二 -->
+        <li>
+            <div class="cd-full-width">
+                <div class="container-fluid js-tm-page-content" data-page-no="2" data-page-type="gallery">
+                    <div class="tm-img-gallery-container">
+                        <div id="gallery-two" class="tm-img-gallery gallery-two">
+                            <!-- Gallery Two pop up connected with JS code below -->
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </li>
+
+        <!-- Page 3 相册三 -->
+        <li>
+            <div class="cd-full-width">
+                <div class="container-fluid js-tm-page-content" data-page-no="3" data-page-type="gallery">
+                    <div class="tm-img-gallery-container">
+                        <div id="gallery-three" class="tm-img-gallery gallery-three">
+                            <!-- Gallery Two pop up connected with JS code below -->
+
+                        </div>
+                    </div> <!-- .tm-img-gallery-container -->
+                </div>
+            </div>
+        </li>
+
+        <!-- Page 4 说明 -->
+        <li>
+            <div class="cd-full-width">
+                <div class="container-fluid js-tm-page-content tm-page-width tm-pad-b" data-page-no="4">
+
+                    <div class="tm-about-page">
+
+                        <div class="row tm-white-box-margin-b">
+                            <div class="col-xs-12">
+                                <div class="tm-flex">
+                                    <div class="tm-bg-white-translucent text-xs-left tm-textbox tm-textbox-padding">
+                                        <h2 class="tm-text-title">感谢内测群</h2>
+                                        <p class="tm-text">
+                                            首先感谢内测群成员为911众筹的超级火箭
+                                        </p>
+                                        <p class="tm-text">
+                                            其次感谢内测群成员对网站提出的各种意见或建议
+                                        </p>
+                                        <p class="tm-text">
+                                            最后希望内测群成员持续关注该网站以后的发展
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row tm-white-box-margin-b">
+                            <div class="col-xs-12">
+                                <div class="tm-flex">
+                                    <div class="tm-bg-white-translucent text-xs-left tm-textbox tm-textbox-padding">
+                                        <h2 class="tm-text-title">致歉</h2>
+                                        <p class="tm-text">
+                                            首先向发送67373三周年祝福视频的水友致以最诚挚的歉意，因参与人数不足30人，该特效被取消
+                                        </p>
+                                        <p class="tm-text">
+                                            谢谢各位水友对该活动的支持和关注，请关注后续相关活动
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="row tm-white-box-margin-b">
+                            <div class="col-xs-12">
+                                <div class="tm-flex">
+                                    <div class="tm-bg-white-translucent text-xs-left tm-textbox tm-textbox-padding">
+                                        <h2 class="tm-text-title">特别感谢</h2>
+                                        <p class="tm-text">感谢<a href="https://weibo.com/u/1806223850" target="_blank" style="text-decoration: none">動感HJC</a>提供的图片资源.
+                                            后期<a href="https://weibo.com/u/1806223850" target="_blank" style="text-decoration: none">動感HJC</a>对图片资源进行了特殊处理.
+                                        </p>
+                                        <p class="tm-text">感谢<a href="https://weibo.com/u/6285571420" target="_blank" style="text-decoration: none">爱鱼爱生活time</a>对网页背景颜色的优化.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row tm-white-box-margin-b">
+                            <div class="col-xs-12">
+                                <div class="tm-flex">
+                                    <div class="tm-bg-white-translucent text-xs-left tm-textbox tm-textbox-padding">
+                                        <h2 class="tm-text-title">建议</h2>
+                                        <p class="tm-text">
+                                            内测群成员，请优先在群内反馈
+                                        </p>
+                                        <p class="tm-text">
+                                            非内测群成员，请联系<a href="mailto:864891814@qq.com">网站管理员小白</a>反馈
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row tm-white-box-margin-b">
+                            <div class="col-xs-12">
+                                <div class="tm-flex">
+                                    <div class="tm-bg-white-translucent text-xs-left tm-textbox tm-textbox-padding">
+                                        <h2 class="tm-text-title">网站源代码</h2>
+                                        <p class="tm-text">
+                                            <a href="https://git.oschina.net/ywang1989/Countdown-911">三周年网站源代码</a>
+                                        </p>
+                                        <p class="tm-text">
+                                            <a href="http://hub.daocloud.io/repos/12a343db-062a-4247-9974-2df1cffb4950">Docker镜像(三周年网站)</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div> <!-- .cd-full-width -->
+
+        </li>
+
+        <!-- Page 6 相册6 -->
+        <li>
+            <div class="cd-full-width">
+                <div class="container-fluid js-tm-page-content" data-page-no="6" data-page-type="gallery">
+                    <h2 class="tm-text-title">测试文本</h2>
+                </div>
+            </div>
+        </li>
+
+
+
+
+
+
+        <!-- Page 5 Contact Us -->
+        <li>
+            <div class="cd-full-width">
+                <div class="container-fluid js-tm-page-content tm-page-pad" data-page-no="5">
+                    <div class="tm-contact-page">
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <div class="tm-flex tm-contact-container">
+                                    <div class="tm-bg-white-translucent text-xs-left tm-textbox tm-2-col-textbox-2 tm-textbox-padding tm-textbox-padding-contact">
+                                        <h2 class="tm-contact-info">Feel free to say Hi!</h2>
+                                        <p class="tm-text">Nulla sed urna at ligula maximus blandit. Mauris nisi ligula,
+                                            ultricies ac diam id, hendrerit tincidunt ipsum. Maecenas non massa
+                                            justo.</p>
+
+                                        <!-- contact form -->
+                                        <form action="index.html" method="post" class="tm-contact-form">
+
+                                            <div class="form-group">
+                                                <input type="text" id="contact_name" name="contact_name"
+                                                       class="form-control" placeholder="Name" required/>
+                                            </div>
+
+                                            <div class="form-group">
+                                                <input type="email" id="contact_email" name="contact_email"
+                                                       class="form-control" placeholder="Email" required/>
+                                            </div>
+
+                                            <div class="form-group">
+                                                <textarea id="contact_message" name="contact_message"
+                                                          class="form-control" rows="5" placeholder="Message"
+                                                          required></textarea>
+                                            </div>
+
+                                            <button type="submit" class="pull-xs-right tm-submit-btn">Send</button>
+
+                                        </form>
+                                    </div>
+
+                                    <div class="tm-bg-white-translucent text-xs-left tm-textbox tm-2-col-textbox-2 tm-textbox-padding tm-textbox-padding-contact">
+                                        <h2 class="tm-contact-info">4466 Old New St 28290, SF, California</h2>
+                                        <!-- google map goes here -->
+                                        <div id=""></div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div> <!-- .cd-full-width -->
+        </li>
+    </ul> <!-- .cd-hero-slider -->
+
+    <footer class="tm-footer">
+
+        <!--<div class="tm-social-icons-container text-xs-center">-->
+            <!--<a href="#" class="tm-social-link"><i class="fa fa-facebook"></i></a>-->
+            <!--<a href="#" class="tm-social-link"><i class="fa fa-google-plus"></i></a>-->
+            <!--<a href="#" class="tm-social-link"><i class="fa fa-twitter"></i></a>-->
+            <!--<a href="#" class="tm-social-link"><i class="fa fa-behance"></i></a>-->
+            <!--<a href="#" class="tm-social-link"><i class="fa fa-linkedin"></i></a>-->
+        <!--</div>-->
+
+        <p class="tm-copyright-text">Copyright &copy; <span class="tm-copyright-year">2017</span> <a href="http://www.chenyifaer.top">CHENYIFAER.TOP</a>
+            | 备案号: <a href="http://www.miitbeian.gov.cn">鲁ICP备16050377号-3</a></p>
+
+    </footer>
+
+</div> <!-- .cd-hero -->
+
+
+<!-- Preloader, https://ihatetomatoes.net/create-custom-preloading-screen/ -->
+<div id="loader-wrapper">
+
+    <div id="loader"></div>
+    <div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
+
+</div>
+
+<!-- load JS files -->
+
+<script src="js/tether.min.js"></script> <!-- Tether (http://tether.io/)  -->
+<script src="js/bootstrap.min.js"></script>             <!-- Bootstrap js (v4-alpha.getbootstrap.com/) -->
+<script src="js/hero-slider-main.js"></script>          <!-- Hero slider (https://codyhouse.co/gem/hero-slider/) -->
+<script src="js/jquery.magnific-popup.min.js"></script>
+<!-- Magnific popup (http://dimsemenov.com/plugins/magnific-popup/) -->
+
+<script>
+
+    function adjustHeightOfPage(pageNo) {
+
+        if (pageNo <= 3) {
+            initGalleryByIndex(pageNo-1);
+        }
+
+        var pageContentHeight = 0;
+
+        var pageType = $('div[data-page-no="' + pageNo + '"]').data("page-type");
+
+        if (pageType != undefined && pageType == "gallery") {
+            pageContentHeight = $(".cd-hero-slider li:nth-of-type(" + pageNo + ") .tm-img-gallery-container").height();
+        }
+        else {
+            pageContentHeight = $(".cd-hero-slider li:nth-of-type(" + pageNo + ") .js-tm-page-content").height() + 20;
+        }
+
+        // Get the page height
+        var totalPageHeight = $('.cd-slider-nav').height()
+            + pageContentHeight
+            + $('.tm-footer').outerHeight();
+
+        // Adjust layout based on page height and window height
+        if (totalPageHeight > $(window).height()) {
+            $('.cd-hero-slider').addClass('small-screen');
+            $('.cd-hero-slider li:nth-of-type(' + pageNo + ')').css("min-height", totalPageHeight + "px");
+        }
+        else {
+            $('.cd-hero-slider').removeClass('small-screen');
+            $('.cd-hero-slider li:nth-of-type(' + pageNo + ')').css("min-height", "100%");
+        }
+
+    }
+
+    /*
+        Everything is loaded including images.
+    */
+    $(window).load(function () {
+
+        adjustHeightOfPage(1); // Adjust page height
+
+        /* Gallery One pop up
+        -----------------------------------------*/
+        $('.gallery-one').magnificPopup({
+            delegate: 'a', // child items selector, by clicking on it popup will open
+            type: 'image',
+            gallery: {enabled: true}
+        });
+
+        /* Gallery Two pop up
+        -----------------------------------------*/
+        $('.gallery-two').magnificPopup({
+            delegate: 'a',
+            type: 'image',
+            gallery: {enabled: true}
+        });
+
+        /* Gallery Three pop up
+        -----------------------------------------*/
+        $('.gallery-three').magnificPopup({
+            delegate: 'a',
+            type: 'image',
+            gallery: {enabled: true}
+        });
+
+        /* Collapse menu after click
+        -----------------------------------------*/
+        $('#tmNavbar a').click(function () {
+            $('#tmNavbar').collapse('hide');
+
+            adjustHeightOfPage($(this).data("no")); // Adjust page height
+        });
+
+        /* Browser resized
+        -----------------------------------------*/
+        $(window).resize(function () {
+            var currentPageNo = $(".cd-hero-slider li.selected .js-tm-page-content").data("page-no");
+
+            // wait 3 seconds
+            setTimeout(function () {
+                adjustHeightOfPage(currentPageNo);
+            }, 1000);
+
+        });
+
+        // Remove preloader (https://ihatetomatoes.net/create-custom-preloading-screen/)
+        $('body').addClass('loaded');
+
+        // Write current year in copyright text.
+        $(".tm-copyright-year").text(new Date().getFullYear());
+
+    });
+
+
+</script>
+
+</body>
+</html>
